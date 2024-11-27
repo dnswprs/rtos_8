@@ -28,8 +28,11 @@ Semaphore adalah mekanisme kritis dalam RTOS yang mengatur akses sumber daya ter
 5. FlashOrangeLedTask berjalan secara independen, tidak menggunakan semaphore, dan hanya mengedipkan LED Oranye.
 6. Penggunaan semaphore memastikan bahwa hanya satu tugas yang dapat mengakses sumber daya bersama pada satu waktu, mencegah kondisi balapan (race condition) dan memastikan integritas data.
 
-### Diagram Timing Program
+### Diagram Alur Kerja Program
 ![image](https://github.com/user-attachments/assets/ba465353-f51c-4200-a4d0-6c9c2c450dd0)
+
+### Diagram Timing Program
+![image](https://github.com/user-attachments/assets/0cfcded6-6448-4e34-8fb0-31975732123f)
 
 ## Konfigurasi Hardware
 ### Program menggunakan konfigurasi GPIO berikut:
